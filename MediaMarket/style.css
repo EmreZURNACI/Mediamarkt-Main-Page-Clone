@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+label {
+    width: 80%;
+}
+
+label input {
+    width: 100%;
+}
+
+#searchItem {
+    border: 2px solid #347702;
+}
+
+.bg-success {
+    background-color: #347702 !important;
+}
+
+.bg-darker {
+    background-color: black !important;
+}
+
+.btn {
+    padding: 0.4rem 1.4rem;
+    border-radius: 5px;
+}
+
+input:focus,
+#searchItem:focus {
+    box-shadow: 1px 1px 1px 1px 1px #347702 !important;
+    border-radius: 0 !important;
+    border: 2px solid #347702;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-danger,
+.bg-danger {
+    background-color: #df0000 !important;
+}
+
+a:hover,
+.head-crumbs a:hover .text-444 {
+    text-decoration: underline !important;
+    color: #df0000 !important;
+    cursor: pointer;
+}
+
+#searchIcon {
+    cursor: pointer;
+}
+
+.z-index-max {
+    z-index: 1000;
+}
+
+.greenTick {
+    content: '';
+    position: absolute;
+    background: url(https://data.mediamarkt.com.tr/img/static/spritescd.png) no-repeat scroll -174px -40px transparent;
+    width: 16px;
+    height: 15px;
+    color: #000;
+    z-index: 1;
+}
+
+.text-444 {
+    color: #444;
+}
+
+.text-777 {
+    color: #777;
+}
+
+.placeHolder {
+    width: auto;
+    height: 140px;
+}
+
+.container {
+    max-width: 1240px;
+}
+
+.border {
+    border: 1px solid #ddd !important;
+}
+
+.width125 {
+    width: 12.5%;
+}
+
+.width125:hover {
+    cursor: pointer;
+}
+
+.width125 a:hover {
+    text-decoration: none !important;
+}
+
+.triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 17px;
+    height: 7px;
+    top: 89.5%;
+    left: 7.25%;
+    background-color: #fff;
+}
+
+.actif {
+    color: #df0000 !important;
+}
+
+.width111 {
+    width: calc(100% /9);
+}
+
+.rounded-circle {
+    width: 85px;
+    height: 85px;
+}
+
+.categories:hover {
+    color: #444 !important;
+    text-decoration-color: orangered !important;
+}
+
+#telefon {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -1081px -24px;
+    background-size: 1454px;
+}
+
+#Notebooklar {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -154px -24px;
+    background-size: 1454px;
+}
+
+#evAletleri {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -949px -24px;
+    background-size: 1454px;
+}
+
+#KisiselBakim {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -684px -24px;
+    background-size: 1454px;
+}
+
+#BeyazEsyalar {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -1346px -24px;
+    background-size: 1454px;
+}
+
+#Supurgeler {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -552px -24px;
+    background-size: 1454px;
+    ;
+}
+
+#Televizyonlar {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -1213px -24px;
+    background-size: 1454px;
+}
+
+#Aksesuarlar {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -23px -24px;
+    background-size: 1454px;
+}
+
+#termo {
+    background: url(https://www.mediamarkt.com.tr/static/img/css_sprites_red_medium.png) no-repeat -420px -24px;
+    background-size: 1454px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+}
+
+.text-dark {
+    color: #000 !important;
+}
+
+.carousel-item1>ul li {
+    width: 17%;
+}
+
+.h-30 {
+    height: 30vh;
+}
+
+.carousel2 li {
+    width: calc(100% /4);
+}
+
+.fs-7 {
+    font-size: 1rem;
+}
+
+.TvRecommends li {
+    width: 32%;
+}
+
+.svgPictures {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.h-25 ul li {
+    height: 100px;
+    width: 120px;
+}
+
+.h-25 ul li:first-child img {
+    height: 75px;
+    width: 75px;
+}
+
+.py-02 {
+    padding: 0.2rem;
+}
+
+footer li {
+    width: calc(100% /4.5);
+}
+
+.text-777:hover {
+    color: #444;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    width: 1.8rem !important;
+}
+
+.material-symbols-outlined {
+    color: #000;
+}
+
+.material-symbols-outlined:hover {
+    color: #df0000;
+    border-radius: 50%;
+}
